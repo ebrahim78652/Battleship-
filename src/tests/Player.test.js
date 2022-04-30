@@ -1,7 +1,7 @@
 import { Player } from "../Player";
 import { Block, Ship } from "../Ship";
 
-test("gameover should be false", () => {
+/* test("gameover should be false", () => {
   const player = Player();
   player.setName("ebrahim");
 
@@ -19,4 +19,4 @@ test("gameover should be false", () => {
   expect(player.checkGameOver()).toBe(false);
   player.hitCoordinate([1, 3]);
   expect(player.checkGameOver()).toBe(true);
-});
+}); */
